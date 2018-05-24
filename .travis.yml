@@ -1,0 +1,23 @@
+language: java
+dist: trusty
+sudo: true
+
+addons:
+  apt:
+    packages:
+      - oracle-java8-installer
+
+before-install:
+  - sudo apt-get update -q -y
+
+script:
+  - gradle clean buildAll
+  - gradle clean check
+
+before_cache:
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -rf $HOME/.gradle/caches/*/plugin-resolution/
+cache:
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
