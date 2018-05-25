@@ -3,6 +3,7 @@
 # ezdb4j
 [![Donations Badge](https://yourdonation.rocks/images/badge.svg)](https://carterbrainerd.me/donations)
 [![Build Status](https://travis-ci.org/cbrnrd/ezdb4j.svg?branch=master)](https://travis-ci.org/cbrnrd/ezdb4j)
+[ ![Download](https://api.bintray.com/packages/cbrnrd/ezdb4j/ezdb4j/images/download.svg) ](https://bintray.com/cbrnrd/ezdb4j/ezdb4j/_latestVersion)
 
 ## Introduction
 
