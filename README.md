@@ -25,8 +25,31 @@ connection.terminate();
 
 ## Installation
 
+### Maven (pom.xml)
+
+```xml
+<dependency>
+  <groupId>io.codepace</groupId>
+  <artifactId>ezdb4j</artifactId>
+  <version>0.1.0</version>
+  <type>pom</type>
+</dependency>
 ```
+
+### Gradle (build.gradle)
+```
+repositories {
+    jcenter()
+}
+
 dependencies {
     compile 'io.codepace:ezdb4j:0.1.0'
 }
+```
+
+### Ivy
+```xml
+<dependency org='io.codepace' name='ezdb4j' rev='0.1.0'>
+  <artifact name='ezdb4j' ext='pom' ></artifact>
+</dependency>
 ```
