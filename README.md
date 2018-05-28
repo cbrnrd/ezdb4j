@@ -38,7 +38,7 @@ connection.terminate();
 ```
 
 ### Gradle (build.gradle)
-```
+```groovy
 repositories {
     jcenter()
 }
