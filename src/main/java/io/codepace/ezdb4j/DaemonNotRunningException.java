@@ -1,4 +1,4 @@
-package main.java.io.codepace.ezdb4j;
+package io.codepace.ezdb4j;
 
 public class DaemonNotRunningException extends Exception {
 

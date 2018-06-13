@@ -1,1 +1,1 @@
-typeSearchIndex = [{"p":"main.java.io.codepace.ezdb4j","l":"Connection"},{"p":"main.java.io.codepace.ezdb4j","l":"DaemonNotRunningException"},{"p":"main.java.io.codepace.ezdb4j","l":"EzdbConnection"},{"p":"main.java.io.codepace.ezdb4j","l":"EzdbConnector"}]
+typeSearchIndex = [{"p":"io.codepace.ezdb4j","l":"Connection"},{"p":"io.codepace.ezdb4j","l":"DaemonNotRunningException"},{"p":"io.codepace.ezdb4j","l":"EzdbConnection"},{"p":"io.codepace.ezdb4j","l":"EzdbConnector"}]

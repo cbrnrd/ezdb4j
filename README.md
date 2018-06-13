@@ -32,7 +32,7 @@ connection.terminate();
 <dependency>
   <groupId>io.codepace</groupId>
   <artifactId>ezdb4j</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <type>pom</type>
 </dependency>
 ```
@@ -44,13 +44,13 @@ repositories {
 }
 
 dependencies {
-    compile 'io.codepace:ezdb4j:0.1.0'
+    compile 'io.codepace:ezdb4j:0.1.1'
 }
 ```
 
 ### Ivy
 ```xml
-<dependency org='io.codepace' name='ezdb4j' rev='0.1.0'>
+<dependency org='io.codepace' name='ezdb4j' rev='0.1.1'>
   <artifact name='ezdb4j' ext='pom' ></artifact>
 </dependency>
 ```

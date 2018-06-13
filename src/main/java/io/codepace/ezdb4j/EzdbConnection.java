@@ -1,4 +1,4 @@
-package main.java.io.codepace.ezdb4j;
+package io.codepace.ezdb4j;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -19,8 +19,10 @@ public class EzdbConnection implements Connection{
             }
             out = new DataOutputStream(connection.getOutputStream());
             in = new DataInputStream(connection.getInputStream());
-        } catch (IOException | DaemonNotRunningException ioe){
+        } catch (IOException ioe){
             System.out.println(ioe.getMessage());
+        } catch (DaemonNotRunningException d){
+            System.out.println(d.getMessage());
         }
     }
 
@@ -79,6 +81,20 @@ public class EzdbConnection implements Connection{
     public void unset(String key){
         try {
             out.writeUTF("unset " + key + "\n");
+            out.flush();
+        } catch (IOException ioe){
+            ioe.printStackTrace();
+        }
+    }
+
+    /**
+     * Sets the value at <code>key</code> witout a return string
+     * @param key The key to set
+     * @param value The value to set <code>key</code> to
+     */
+    public void qset(String key, String value){
+        try{
+            out.writeUTF("qset " + key + value + "\n");
             out.flush();
         } catch (IOException ioe){
             ioe.printStackTrace();

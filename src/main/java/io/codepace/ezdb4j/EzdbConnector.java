@@ -1,4 +1,4 @@
-package main.java.io.codepace.ezdb4j;
+package io.codepace.ezdb4j;
 
 public class EzdbConnector {
 
@@ -8,8 +8,8 @@ public class EzdbConnector {
     private EzdbConnector(){}
 
     /**
-     * Creates a new {@link main.java.io.codepace.ezdb4j.EzdbConnection} for communication with the ezdb daemon.
-     * @return {@link main.java.io.codepace.ezdb4j.EzdbConnection} A new connection with the ezdb connection
+     * Creates a new {@link io.codepace.ezdb4j.EzdbConnection} for communication with the ezdb daemon.
+     * @return {@link io.codepace.ezdb4j.EzdbConnection} A new connection with the ezdb connection
      */
     public static EzdbConnection createConnection(){
         return new EzdbConnection();

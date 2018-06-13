@@ -6,7 +6,7 @@
 
     <groupId>io.codepace</groupId>
     <artifactId>ezdb4j</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <name>io.codepace:ezdb4j</name>
     <description>The official client library for the ezdb IPC database</description>
     <licenses>

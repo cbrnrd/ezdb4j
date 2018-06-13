@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"main.java.io.codepace.ezdb4j"}]
+packageSearchIndex = [{"l":"io.codepace.ezdb4j"}]

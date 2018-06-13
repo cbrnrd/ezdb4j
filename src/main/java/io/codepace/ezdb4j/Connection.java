@@ -1,4 +1,4 @@
-package main.java.io.codepace.ezdb4j;
+package io.codepace.ezdb4j;
 
 public interface Connection {
 
@@ -6,5 +6,6 @@ public interface Connection {
     String get(String key);
     String getAllAsJsonString();
     void unset(String key);
+    void qset(String key, String value);
     void terminate();
 }
