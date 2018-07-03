@@ -54,3 +54,7 @@ dependencies {
   <artifact name='ezdb4j' ext='pom' ></artifact>
 </dependency>
 ```
+
+<p align="center">
+  <img height="100" width="300" src="https://i.imgur.com/obHmDnX.png">
+</p>
